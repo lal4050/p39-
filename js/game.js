@@ -100,7 +100,7 @@ class Game{
                  }
 
                  if (player.index !== null) {
-                    text("player1:" + player.score,200,140);
+                    text("player:" + player.score,200,140);
                     for (var i = 0; i < fruitGroup.length; i++) {
                     if (fruitGroup.get(i).isTouching(players)) {
                     fruitGroup.get(i).destroy();
